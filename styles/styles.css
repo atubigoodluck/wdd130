@@ -1,0 +1,51 @@
+/* Styling for the navigation */
+nav {
+    background-color: darkblue;
+    padding: 10px;
+  }
+  
+  /* Styling for links within the navigation */
+  nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+  }
+  
+  /* Styling for h1 headings */
+  h1 {
+    color: darkblue;
+  }
+  
+  /* Styling for images */
+  img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+  }
+  
+  /* Styling for paragraphs */
+  p {
+    padding: 10px;
+  }
+  aside {width: 20em;
+    margin: 1em;
+    border: 1px solid rgb(red, green, blue);
+    padding: 1em;
+    background-color: lightgrey;
+    color: black;
+    text-align: center;
+  }
+  aside img {
+    width: 200px;
+    height: auto;
+}
+footer{margin-top: 2em;
+  border-top: 2em;
+  text-align: center;
+}
+main img {width: 200px;
+   height: auto;
+   background-color: aliceblue;
+}
