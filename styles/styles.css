@@ -31,7 +31,7 @@ nav {
   }
   aside {width: 20em;
     margin: 1em;
-    border: 1px solid rgb(red, green, blue);
+    border: 1px  solid rgb(255, 0, 0);
     padding: 1em;
     background-color: lightgrey;
     color: black;
@@ -41,11 +41,14 @@ nav {
     width: 200px;
     height: auto;
 }
-footer{margin-top: 2em;
-  border-top: 2em;
+footer{margin-top: 1em;
+  border-top: 2px solid black;
   text-align: center;
 }
 main img {width: 200px;
    height: auto;
    background-color: aliceblue;
+}
+p {
+  padding: 0;
 }
