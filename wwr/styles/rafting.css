@@ -1,0 +1,140 @@
+:root {
+    --primary-color: #005F73; 
+    --secondary-color: #000000; 
+    --Accent1-color: #0A9396; 
+    --Accent2-color: #1dc230;
+    --text-color: #000000; 
+  }
+ 
+   body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+     margin: 0 auto;
+     padding: 0 20px;
+  }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ h1, h2 {
+     font-family: "Montserrat", Roboto;
+     color:#4119f1;
+ } 
+ 
+ .hero {
+     position: relative;
+ 
+ }
+ 
+ .hero img {
+     display: block;
+     width: 100%;
+     height: auto;
+ }
+ 
+ .hero h1{
+     position: absolute;
+     top: 4%;
+     width: 100%;
+     text-align: center;
+     font-weight: 700;
+     background-color: #00000070;
+     padding: 10px 0px;
+     color: var(--Accent1-color);
+ }
+ 
+   .hero article {
+     position: absolute;
+     top: 20%;
+     left: 5%;
+     padding: 20px;
+     width: 85%;
+     background-color: #00000070;
+ 
+   }
+ 
+   .hero article p {
+     color: var(--Accent2-color);
+     font-weight: 400;
+     font-size: 24px;
+   }
+ 
+   .hero article img {
+     float: right;
+     margin-left: 15px;
+     max-width: 30%;
+     height: auto;
+   }
+ 
+   section img {
+     display: block;
+     width: 300px;
+   }
+ 
+   footer nav a img {
+     width: 24px;
+     height: auto;
+   }
+ 
+   header {
+     display: grid;
+     grid-template-columns: 182px 1fr 2fr;
+     align-items: center;
+   }
+ 
+   nav {
+     display: flex;
+     list-style: none;
+   }
+   header img{
+     width: 75px;
+     height: auto;
+   }
+   nav a {
+     flex: 1 1 100%;
+     display: block;
+     color: #005F73;
+     text-decoration: none;
+     padding: 20px;
+   }
+   nav a:hover {
+       color: #0A9396;
+   }
+ 
+   .history {
+     display: block;
+     text-align: center;
+   }
+ 
+   .image {
+     display: flex;
+   }
+ 
+   .adventure {
+     display: block;
+     text-align: center;
+   }
+ 
+   .footer {
+     display: flex;
+     justify-content: flex-end;
+     padding: 20px;
+     background-color: antiquewhite;
+ 
+   }
+ 
+   .social-icons {
+     display: flex;
+     gap: 100px;
+   }
+ 
+   .social-icons img {
+     width: 30px;
+     height: auto;
+   }
+ 
+   .image figure img {
+     width: 120px;
+   }
+       
